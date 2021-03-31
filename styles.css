@@ -1,0 +1,358 @@
+/* master styles  */
+body{
+    background-color: #1A3875;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ffffff;
+    text-decoration-color: #1A3875;
+    text-decoration: none;
+    
+    
+}
+#blue-text{
+    color: #1A3875;
+}
+#white-text{
+    color:#ffffff;
+}
+#red-text{
+    color: red;
+}
+.container-text{
+    text-align: center;
+     padding-top: 0px;
+    margin-top: 0px; 
+    padding:15px;
+    padding-bottom: 70px;
+    font-weight: 800;
+    font-size: 1em;
+}
+h1{
+    font-size: 1.8em;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-size: 1em;
+    font-weight: 100;
+    color: black;
+}
+.grey-background{
+    background-color: grey;
+    
+}
+ /* Nav syles */
+ .nav-wrapper{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+ }
+ .left-side{
+     font-family:Danube Pro Light;
+     
+     
+ }
+ .nav-wrapper > .left-side >div{
+     margin-right: 20px;
+     margin-left: 30px;
+     text-decoration: none;
+     font-weight: 800;
+     font-size: 2em;
+ }
+ 
+ .portfolio-img-wrapper{
+     display: flex;
+     justify-content: space-between;
+     background-color: #1A3875;
+     padding: 20px;
+     border-radius: 1em;
+ }
+ .images-container>.right-side>.images-container{
+     padding-top: 0px;
+     padding-left: 0px;
+     margin-left: 0px;
+     margin-top: 0px;
+ }
+ .get-started{
+    background-color: #0F94FF;
+    margin: 10px;
+    border-radius: 1em;
+    padding: 0px;
+    padding-top: 0px;
+ }
+ .get-started>h1{
+    padding: 8px;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 800;
+ }
+ 
+ 
+ .nav-wrapper>.right-side>div{
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.5em;
+     font-weight: 800;
+ }
+ .nav-link-wrapper{
+     text-decoration: none;
+     border-bottom: none;
+ }
+ .nav-link-wrapper>a{
+     text-decoration: none;
+     color: #1A3875;
+ }
+ .blue-background{
+     background-color: #1A3875;
+     
+  
+ }
+ ul{
+     
+     font-size: 1.2em;
+     font-weight: 400;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     list-style-image: url("images/checkmark.png");
+ }
+ 
+ .img{
+     padding: 10px;
+ }
+ .white-background{
+     background-color:#ffffff ;    
+ }
+ .first{
+     margin: 100px;
+     margin-bottom: 5px;
+     padding: 50px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .first>.left-side{
+     display: flex;
+     justify-content: space-between;
+ }
+ .first>.middle-side{
+     display: flex;
+     justify-content: space-between;
+ }
+ .first>.right-side{
+     display: flex;
+     justify-content: space-between;
+ }
+ .first>.left-side>p{
+     color: #1A3875;
+     margin-left: 10px;
+ }
+ .first>.middle-side>p{
+    color: #1A3875;
+    margin-left: 10px;
+ }
+ .first>.right-side>p{
+    color: #1A3875;
+    margin-left: 10px;
+ }
+ .second{
+     margin-bottom: 50px;
+     padding-bottom: 50px;
+ }
+.hr{
+    margin-top: 10px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.second>.hr>h1{
+    margin: 80px;
+    color: #1A3875;
+    text-align: center;
+}
+.second>.signup{
+    display: flex;
+    justify-content: space-between;
+}
+.second>.signup>.text>h1{
+    color: #1A3875;
+    margin: 30px;
+}
+.second>.signup>.text>p{
+     margin-left: 70px;
+}
+.second>.signup>.img{
+    margin-right: 100px;
+}
+.second>.deposit{
+    display: flex;
+    justify-content: space-between;
+}
+.second>.deposit>.text>h1{
+    color: #1A3875;
+    margin: 30px;
+}
+.second>.deposit>.text>p{
+    margin-left: 70px;
+}
+.second>.deposit>.img{
+    margin-right: 100px;
+}
+.second>.buy-crypto{
+    display: flex;
+    justify-content: space-between;
+}
+.second>.buy-crypto>.text>h1{
+    color: #1A3875;
+    margin: 30px;
+}
+.second>.buy-crypto>.text>p{
+    margin-left: 70px;
+}
+.second>.buy-crypto>.img{
+    margin-right: 100px;
+}
+.second>.buy-bitcoin{
+    color: #ffffff;
+    background-color: #0F94FF;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    border-radius: 1.5em;
+}
+.second>.buy-bitcoin>h1{
+    padding: 5px;
+    text-align: center;
+}
+.images-container{
+    display: flex;
+    justify-content: space-between;
+    margin:50px;
+}
+.blue-background>.text{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.blue-background>.text>h1{
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.images-container>.first-img-container{
+    display:grid;
+    grid-row: 1fr;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+}
+.images-container>.first-img-container>.text{
+    text-align: center;
+}
+.images-container>.first-img-container>.text>h1{
+    color:#1A3875;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.images-container>.second-img-container{
+    display:grid;
+    grid-row: 1fr;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+}
+.images-container>.second-img-container>.text{
+    text-align: center;
+}
+.images-container>.second-img-container>.text>h1{
+    color:#1A3875;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.images-container>.third-img-container{
+    display:grid;
+    grid-row: 1fr;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+}
+.images-container>.third-img-container>.text{
+    text-align: center;
+}
+.images-container>.third-img-container>.text>h1{
+    color:#1A3875;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+}    
+.blue-background>.learn-more{
+    color: #ffffff;
+    background-color: #0F94FF;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    border-radius: 1.5em;
+}
+.blue-background>.learn-more>h1{
+    padding: 5px;
+    text-align: center;
+}
+.white-background>.text{
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.white-background>.text>h1{
+    color: #1A3875;
+    text-align: center;
+}
+.white-background>.images-container{
+    padding-bottom:50px;
+    margin-bottom: 0px;
+}
+.images-container>.first-image-container>.img{
+    padding-left:50px;
+}
+.images-container>.first-image-container>.text{
+    text-align: center;
+}
+.grey-background>.text{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+.grey-background>.text>h1{
+    padding-top: 100px;
+    margin-top: 0px;
+}
+.container-one{
+    background-color: #ffffff;
+}
+.container-two{
+    background-color: #ffffff;
+}
+.container-three{
+    background-color: #ffffff;
+}
+
+.grey-background>.images-container{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+
+    
+
+
+
+ 
+ 

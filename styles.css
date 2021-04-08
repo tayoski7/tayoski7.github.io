@@ -9,8 +9,12 @@ body{
     background-color: #ffffff;
     text-decoration-color: #1A3875;
     text-decoration: none;
-    
-    
+    position: fixed;
+    top:0px;
+    width:100%;   
+}
+span{
+    color: red;
 }
 #blue-text{
     color: #1A3875;
@@ -43,7 +47,7 @@ p{
 }
 .grey-background{
     background-color: grey;
-    
+    width:100%;
 }
  /* Nav syles */
  .nav-wrapper{
@@ -108,6 +112,7 @@ p{
  }
  .blue-background{
      background-color: #1A3875;
+     padding-top:50px;
      
   
  }
@@ -123,7 +128,8 @@ p{
      padding: 10px;
  }
  .white-background{
-     background-color:#ffffff ;    
+     background-color:#ffffff ;
+     width:100%;   
  }
  .first{
      margin: 100px;

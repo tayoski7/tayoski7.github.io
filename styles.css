@@ -2,7 +2,9 @@
 body{
     background-color: #1A3875;
     margin: 0px;
+    width: max-content;
 }
+
 .container{
     display: grid;
     grid-template-columns: 1fr;
@@ -47,8 +49,14 @@ p{
 }
 .grey-background{
     background-color: grey;
-    width:100%;
 }
+.blue-background{
+     background-color: #1A3875;
+     padding-top:50px;
+ }
+ .white-background{
+     background-color:#ffffff ;   
+ }
  /* Nav syles */
  .nav-wrapper{
      display: flex;
@@ -110,12 +118,7 @@ p{
      text-decoration: none;
      color: #1A3875;
  }
- .blue-background{
-     background-color: #1A3875;
-     padding-top:50px;
-     
-  
- }
+ 
  ul{
      
      font-size: 1.2em;
@@ -127,10 +130,7 @@ p{
  .img{
      padding: 10px;
  }
- .white-background{
-     background-color:#ffffff ;
-     width:100%;   
- }
+ 
  .first{
      margin: 100px;
      margin-bottom: 5px;
